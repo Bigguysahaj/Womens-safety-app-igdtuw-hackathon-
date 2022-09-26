@@ -1,5 +1,9 @@
+*{
+    user-select: none;
+}
+
 body{
-    background-color: #8f1ce0;
+    background-color: rgb(249, 238, 222);
     color: #ffffff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -12,4 +16,97 @@ body{
     height: 100%;
     margin: 0 auto;
     width: 100%;
+}
+
+/*Nav bar*/
+
+h1{
+    font-size: 40px;
+    font-family: monospace;
+    line-height: 1.2;
+    color: rgb(138, 34, 34);
+
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+code, pre{
+    background-color: #333;
+    color:#fff ;
+    padding: 10px;
+}
+
+.navbar{
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgb(116, 14, 14);
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px rgb(116, 14, 14) solid;
+}
+
+
+.navbar .flex{
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1585px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* sos btn */
+
+.sos {
+    display: flex;
+    justify-content: center;
+    padding: 87px;
+}
+
+.sos .btn{
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(207, 16, 16);
+    color: white;
+    font-size: 129px;
+    font-family: ui-rounded;
+    border-radius: 100%;
+    border: 6px black solid;
+    width: 606px;
+    height: 551px;
+}
+.btn:hover{
+    transform: scale(0.98);
 }
