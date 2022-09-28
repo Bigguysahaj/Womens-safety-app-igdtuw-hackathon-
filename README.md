@@ -12,7 +12,7 @@ Medusa is a Dynamic web project for women safety and security with auto location
 ## Installation
 
 You can download the zip file and run it on your local system and also we have deployed our project on Github pages so you can check that out too.
-[Medusafe web app](https://bigguysahaj.github.io/Womens-safety-app-igdtuw-hackathon-/)
+[Medusa web app](https://bigguysahaj.github.io/Womens-safety-app-igdtuw-hackathon-/)
 
 ## Usage
 
