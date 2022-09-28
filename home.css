@@ -1,0 +1,154 @@
+* {
+  user-select: none;
+}
+
+body {
+  background-color: rgb(250, 188, 148);
+  color: #ffffff;
+  font-family: fantasy;
+  font-size: 14px;
+  margin: 0;
+}
+
+#myCanvas {
+  background-color: #810d72;
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*Nav bar*/
+
+h1 {
+  font-size: 50px;
+  font-family: fantasy;
+  line-height: 1.2;
+  color: rgb(138, 34, 34);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 30px;
+}
+
+code,
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 70px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(116, 14, 14);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px rgb(116, 14, 14) solid;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1585px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*login buttons*/
+
+.logincase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 200px;
+  flex-direction: column;
+}
+.admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.login-btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(197, 96, 8);
+  color: rgb(138, 34, 34);
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10px;
+  border: 4px rgb(138, 34, 34) solid;
+  width: 300px;
+  height: 100px;
+}
+
+.login-btn:hover {
+  transform: scale(0.97);
+}
+
+.s-btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(197, 96, 8);
+  color: rgb(138, 34, 34);
+  font-size: 30px;
+  border-radius: 10px;
+  border: 4px rgb(138, 34, 34) solid;
+  width: 300px;
+  height: 100px;
+  margin-right: 50px;
+}
+.s-btn:hover {
+  transform: scale(0.97);
+}
+
+.l-btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(197, 96, 8);
+  color: rgb(138, 34, 34);
+  font-size: 30px;
+  border-radius: 10px;
+  border: 4px rgb(138, 34, 34) solid;
+  width: 300px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.l-btn:hover {
+  transform: scale(0.97);
+}
