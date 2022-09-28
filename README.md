@@ -47,10 +47,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+
 Team Members:
-[Tanishi](https://github.com/Txnishi)
-[Adithyan](https://github.com/scopophobic)
-[Sahaj](https://github.com/Bigguysahaj)
+
+[Tanishi](https://github.com/Txnishi),
+[Adithyan](https://github.com/scopophobic), 
+[Sahaj](https://github.com/Bigguysahaj),
 [Priyanka](https://github.com/Priy-nka)
 
 
