@@ -40,7 +40,7 @@ local team.
 
 ### SOS emergency button :
 
-<img width="1428" alt="Screenshot 2022-09-28 at 7 19 31 AM" src="https://user-images.githubusercontent.com/66241061/192669174-ae98b440-228a-4e29-8598-76d1159eeb37.png">
+<img width="1428" alt="Screenshot 2022-09-28 at 7 19 31 AM" src="https://user-images.githubusercontent.com/70798888/192708202-63d55133-da0b-4916-8560-3c1b883402a8.png">
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
