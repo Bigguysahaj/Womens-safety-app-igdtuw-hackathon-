@@ -18,11 +18,11 @@ $result=mysqli_query($connection,$sql) or die("failed");
 if(mysqli_num_rows($result)>0)
 {
     // header("Location:http:");
-    echo("right");
+    header("Location:http:index.html");
 
 }
 else{
-    header("Location:http:login.html");
+    header("Location:http:nologin.html");
     
 }
 
